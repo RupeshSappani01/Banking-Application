@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>Balance Check</title>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "balance.css" />
+</head>
+
+<body>
+<center><h2>Incorrect Accno or Password Details</h2></center>
+<h2 align="center"><em>Hello Please Enter Account Number And Password Here<em></h2>
+<div class="container">
+	<div class="logo1">
+		<img src="sbi.png" alt="SBI logo">
+	</div>
+<form action="http://localhost:9090/SbiNetBanking/BalanceValidation">
+	<div class="text">
+<h3><em>Check Balance:</em></h3>
+</div>
+<label ><em>Account Number:<em></label>
+<input type="text" name="accno1" placeholder="Enter Account Number" autofocus/></br>
+
+<label id="rt1"><em>Password:<em></label>
+
+<input type="password" id="rt" name="pwd1" placeholder="Enter Password" /></br>
+<input  type="submit" name="submit"/>
+</form>
+</div>
+</body>
+</html>

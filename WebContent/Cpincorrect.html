@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Transfering the amount</title>
+<link href="ChangePwd.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<header>
+	<h2><em>Change Password<em></h2>
+</header>
+<center><h3>Incorrect Credentials Pls Try Again </h3></center>
+<div class="container">
+	<div class="logo1">
+		<img src="sbi.png" alt="SBI logo">
+	</div>
+<form action="http://localhost:9090/SbiNetBanking/ChangePwdValidation">
+	<div class="text">
+<h4>Change Password:</h4>
+</div>
+<label >AccountNumber:</label>
+<input type="text"   name="fan" placeholder="Enter AccountNumber" autofocus/>
+<label id="rt1"><em>Password:</em></label>
+<input type="password" id="rt"  name="pwd" placeholder="Enter Password" />
+<label id="rt1"><em>New Password:</em></label>
+<input type="password" id="rt"  name="tan" placeholder="Enter New Password" />
+<label id="rt1"><em>Confirm Password:</em></label>
+<input type="password" id="rt"  name="cpwd" placeholder="Enter Confirm Password" />
+<input id="b1" type="submit" name="submit"/>
+</form>
+</div>
+</body>
+</html>

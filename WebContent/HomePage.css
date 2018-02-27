@@ -1,0 +1,91 @@
+html,body{
+	margin:0;
+	position:relative;
+}
+body
+{
+background-image:url(ss.jpg);
+   background-size:100% 100%;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+ 
+}
+marquee{
+	color:red  ;
+	font-family:fantasy;
+	text-shadow: 1px 1px #0739D4;
+	font-size:20px;
+	position:relative;
+     
+}
+
+#mar{
+	border:2px solid white;
+	border-right:none;
+	border-left:none;
+	position: fixed;
+	top:0;
+	width:100%
+}
+a#adi{
+	font-size:17px;
+	font-family:italic,serif;
+	text-decoration:none;
+	background-color:black;s
+	padding:10px;
+	color:white;
+	border:2px solid black;
+	border-radius:10px;
+	margin-right:6px;
+	margin-left:6px;
+	font-weight:lighter;
+	font-style:italic;
+}
+a#adi:hover{
+	background-color:white;
+	color:black;
+
+}
+h1{
+	color:white;
+    font-family:Arial Verdana;
+    font-weight:2000px;
+}
+h1:hover{
+	color:darkred;
+}
+p
+{
+	font-family:Arial Black, Gadget, sans-serif;
+	color:#E91E63;
+	
+}
+header{
+	border:2px outset #0099cc;
+	text-align: center;
+	background-color:#0099cc;
+	width:100%;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	opacity:0.8;
+	padding:8px;
+	position:fixed;
+	top:33px;
+
+}
+#links2:hover{
+	display:block;
+}
+#logo{
+	position:absolute;
+	top:15px;
+	left:20px;
+	width:120px;
+	height: 70px;
+	
+
+}
+#logo:hover{
+	opacity:1;
+}
+

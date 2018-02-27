@@ -1,0 +1,31 @@
+body{
+	background-image:url(dd.jpeg);
+	background-size:100% 100%;
+	background-position:fixed;
+	background-repeat:no-repeat:
+	
+}
+h2
+{
+	color:#4A148C;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px #4A148C ;
+}
+td
+{
+   background-color:white;
+	height:50px;
+	width:50px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+    border: 1px #FCF9F0;
+	box-shadow:10px 10px  3px black;
+     
+	color:blue;
+}
+p
+{
+	text-shadow:10px 10px 10px 3px blue;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head><title>Register Page</title>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "register.css" />
+</head>
+
+<body>
+<header>
+<h3>Register Page</h3>
+</header>
+<center>
+<h2 style=color:red>You Entered Accno Is Already Exists In DataBase </h2>
+</center>
+<center>
+<h3> Welcome To Register Page of SBI ONLINE BANKING</h3>
+</center>
+<div class="container">
+	<div class="logo1">
+		<img src="sbi.png" alt="SBI logo">
+	</div>
+<form action="http://localhost:9090/SbiNetBanking/RegisterValidation">
+<p>Register Page:</p>
+<label >Account Number:</label>
+<input type="text" name="raccno" placeholder="Enter Account Number" autofocus />
+
+<label id="label1">Name:</label>
+<input type="text" name="name" placeholder="Enter Name" />
+
+<label id="label1">Account Type:</label>
+<input type="text"  name="accnotype" placeholder="Enter Account Type" />
+<label id="label1">Password:</label></td>
+<input type="password" name="rpwd" placeholder="Enter Password" />
+
+<label id="label1">ConfirmPassword:</label>
+<input type="password" name="cpwd" placeholder="Enter ConfirmPassword" />
+<label id="label1">Amount:</label>
+<input type="number" name="amt" placeholder="Enter Amount" />
+
+<input  type="submit" value="Register" name="register"/>
+
+
+</form>
+</div>
+<div>
+	<pre>
+		
+
+
+
+	</pre>
+</div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body{
+background-image:url(ll.jpeg);
+   background-size:100% 100%;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  margin: 0;
+  padding: 0;
+ 
+}
+h4{
+	color:red;
+	font-family:italic;
+}
+.container {
+	background-color:white;
+	height:400px;
+	width:320px;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+    border: 3px #FCF9F0;
+	box-shadow:10px 10px 10px 1px black;
+    position:relative;
+    left:900px;
+    top:50px;
+}
+h3{
+  color:red;
+}	
+  
+input{
+width:100px;
+border:none;
+border-bottom:1px solid black;
+outline:none;
+width:270px;
+margin-left:15px;
+padding:5px;
+margin-top:30px;
+color:black;
+font-style:italic;
+margin-top:30px;
+}
+input:focus{
+   background-color:lightyellow;
+ 
+}
+header{
+ 	border:1px inset black;
+ 	background-color:black;
+ 	text-align:center;
+ 	width: 100%;
+ 	top:0;
+ 	border-bottom:1px solid white;
+ }
+	
+
+
+label
+{
+	 font: italic bold 12px/30px Georgia, serif;
+	 text-align: center;
+	 margin-left:14px;
+	 position:relative;
+	 top:40px;
+}
+h2
+{
+	color:red;
+	font-family:fantasy;
+
+}
+h1
+{
+	color:red;
+	 
+}
+a
+{
+	 font: italic bold 12px/30px Georgia, serif;
+
+}
+table{
+	margin: auto;
+    width: 100px;
+	}
+img{
+	width:150px;
+	height: 100px;
+}
+.logo1{
+	position:absolute;
+	left:4.5em;
+	top:-53px;
+}
+.text{
+	position:relative;
+    top:50px;
+    left:7em;
+	}
+	#rt{
+	margin-top:-13px;
+}
+#rt1{
+	position: relative;
+	top:2px;
+}
+input[type="submit"]:hover{
+	background-color:black;
+	color: white;
+	cursor:pointer;
+	border:2px solid white;
+	border-radius:20px;
+}	
+input[type="submit"]{
+	margin-top:30px;
+	margin-left:50px;
+	outline: none;
+	border:none;
+	border-radius:20px;
+	width:200px;
+	background-color:skyblue;
+}

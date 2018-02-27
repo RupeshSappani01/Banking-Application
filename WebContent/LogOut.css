@@ -1,0 +1,84 @@
+body
+{
+	background-image:url(thankyou.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+h2
+{
+
+	font-family:cursive;
+	color:#FF9999;
+
+}
+h1
+{
+
+	font-family:fantasy;
+
+	-webkit-animation:colorchange 10s infinite alternate;
+	 }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color:blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+ 
+}
+pre{
+	font-size:15px;
+	font-family:Comic Sans MS;
+	color:#3399FF;
+
+}

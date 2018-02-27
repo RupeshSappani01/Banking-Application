@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Transfering the amount</title>
+<link href="Transfer.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<header>
+	<h2><em>Money Transfer Page<em></h2>
+</header>
+<center><h2>InValid Accno or Password Please Try Again </h2></center>
+<div class="container">
+<div class="logo1">
+		<img src="sbi.png" alt="SBI logo">
+	</div>
+<form action="http://localhost:9090/SbiNetBanking/TransferValidation">
+	<div class="text">
+<p>Transfer Money:</p>
+</div>
+<label>From AccountNumber:</label>
+<input type="text" id="rt" name="fan" placeholder="Enter Account Number" autofocus/>
+<label id="rt1">Password:</label>
+<input type="password" id="rt" placeholder="Enter Password" name="pwd"/>
+<label id="rt1">To AccountNumber:</label>
+<input type="text" id="rt" placeholder="Enter To AccountNumber" name="tan"/>
+<label id="rt1">Amount:</label>
+<input type="text" id="rt" name="amt" placeholder="Enter Amount" />
+<input type="submit" name="Submit"/>
+</form>
+</div>
+</body>
+</html>
